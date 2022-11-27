@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Jeopardy project built with  [Next.js](https://nextjs.org/).
+
+## Assets to be used
+
+- [Logo](https://logo-timeline.fandom.com/wiki/Jeopardy!)
+- [Color Palette](http://www.colorhunter.com/tag/jeopardy/1)
+
+## Technologies being used
+
+- [jService](https://jservice.io/)
+- [J! Archive](https://jarchive-json.glitch.me/)
+- [socket.io](https://socket.io/)
+- [Material UI](https://mui.com/)
 
 ## Getting Started
 
