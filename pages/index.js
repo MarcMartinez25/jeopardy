@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Header } from '../components/Header';
+import Header from '../components/Header';
 import Game from '../components/Game/Game';
 
 const jeopardURL = 'https://jarchive-json.glitch.me/game/01/01/2020';
