@@ -1,13 +1,15 @@
-import { Card, CardContent, Typography } from '@mui/material'
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Card } from '@mui/material';
 
-// this need to be fixed....
-export const CategoryCard = (title) => {
-  return (
-    <Card>
-			<CardContent>
-				{title}
-			</CardContent>
-    </Card>
-  )
-}
+const CategoryCard = ({ title }) => (
+  <Card variant="outlined">
+    {title}
+  </Card>
+);
+
+CategoryCard.propTypes = {
+  title: PropTypes.string.isRequired,
+};
+
+export default CategoryCard;
